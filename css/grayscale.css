@@ -155,7 +155,7 @@ a:focus {
     font-size: 26px;
   }
 }
-#projectButton{
+#SQLButton{
   margin:20px;
 }
 .btn-circle {
@@ -253,7 +253,7 @@ a:focus {
     height: 400px;
     margin-top: 250px;
   }
-}
+
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -323,9 +323,6 @@ body {
   padding-bottom:130px;
   margin-top:100px;
 }
-#about{
-  
-}
 #projects{
   margin-bottom:200px;
 }
@@ -333,3 +330,6 @@ body {
  padding-top:220px;
 }
 
+#projectButton{
+  margin-top:40px;
+}

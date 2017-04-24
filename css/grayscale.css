@@ -244,7 +244,7 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 100px;
   }
   .download-section {
     padding: 100px 0;
@@ -321,13 +321,11 @@ body {
 }
 #contact{
   padding-bottom:130px;
-  margin-top:100px;
+  
 }
-#projects{
-  margin-bottom:200px;
-}
-#journey{
- padding-top:220px;
+
+#my-website-btn{
+  margin-top:150px;
 }
 
 #projectButton{

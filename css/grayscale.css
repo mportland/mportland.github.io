@@ -335,10 +335,6 @@ body {
   max-height: 50px;
   max-width: 50px;
 }
-
-#python{
-
-}
-#sql{
-  
+.date{
+  z-index: 0;
 }

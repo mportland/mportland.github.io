@@ -30,30 +30,30 @@
 // });
 // });
 
-$("#blueRibbons").hover(function(){
-	$("#mvc").slideToggle(".5s")
-});
-$("#python").hover(function(){
-	$("#pypic").slideToggle(".5s")
-});
-$("#design").hover(function(){
-	$("#balsamiqIcon").slideToggle(".5s")
-});
-$("#sql").hover(function(){
-	$("#sqlIcon").slideToggle(".5s")
-});
+// $("#blueRibbons").hover(function(){
+// 	$("#mvc").slideToggle(".5s")
+// });
+// $("#python").hover(function(){
+// 	$("#pypic").slideToggle(".5s")
+// });
+// $("#design").hover(function(){
+// 	$("#balsamiqIcon").slideToggle(".5s")
+// });
+// $("#sql").hover(function(){
+// 	$("#sqlIcon").slideToggle(".5s")
+// });
 
-$(".date").ready(function(){
-	var time = Date();
-	// console.log(d);
-	time = time.getHours();
+// $(".date").ready(function(){
+// 	var time = Date();
+// 	// console.log(d);
+// 	time = time.getHours();
 
-	console.log(time);
-	if (time <12){
-		$("#greeting").append("<p>Good Morning</p>");
-	} else if (time <17){
-		$("#greeting").append("<p>Good Afternoon</p>");
-	} else{
-		$("#greeting").append("<p>Good Evening</p>");
-	}
-});
+// 	console.log(time);
+// 	if (time <12){
+// 		$("#greeting").append("<p>Good Morning</p>");
+// 	} else if (time <17){
+// 		$("#greeting").append("<p>Good Afternoon</p>");
+// 	} else{
+// 		$("#greeting").append("<p>Good Evening</p>");
+// 	}
+// });

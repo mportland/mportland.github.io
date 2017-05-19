@@ -336,5 +336,7 @@ body {
   max-width: 50px;
 }
 .date{
-  z-index: 0;
+  font-size: 20px;
+  font-weight:bold;
+  margin-top:45px;
 }

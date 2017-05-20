@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
 body {
   width: 100%;
   height: 100%;
@@ -236,6 +232,7 @@ a:focus {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  margin-top:-80px;
 }
 
 #mvc{

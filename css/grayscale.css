@@ -232,7 +232,7 @@ a:focus {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-top:-80px;
+  
 }
 
 #mvc{
@@ -319,6 +319,7 @@ body {
   padding-bottom:130px;
 
 }
+
 #my-website-btn{
   margin-top:150px;
 }

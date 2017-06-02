@@ -151,9 +151,7 @@ a:focus {
     font-size: 26px;
   }
 }
-#SQLButton{
-  margin:20px;
-}
+
 .btn-circle {
   width: 70px;
   height: 70px;
@@ -225,9 +223,21 @@ a:focus {
   width: 100%;
   padding: 0px 0;
   color: white;
-  height: 600px;
+  height: 630px;
   background: url(../img/CirqueSunset.JPG) no-repeat center center scroll;
   background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  
+}
+.contact-section {
+  width: 100%;
+  padding: 66px 0;
+  height: 630px;
+  color: black;
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -240,7 +250,7 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 130px;
+    
   }
   .download-section {
     padding: 100px 0;
@@ -315,10 +325,7 @@ body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
   
 }
-#contact{
-  padding-bottom:130px;
 
-}
 
 #my-website-btn{
   margin-top:150px;
@@ -337,4 +344,17 @@ body {
   font-size: 20px;
   font-weight:bold;
   margin-top:45px;
+}
+#projects{
+  height: 500px;
+  padding-top:100px;
+  margin-bottom:60px;
+}
+
+#SQLButton{
+  margin:20px;
+}
+
+#greeting{
+  margin-top:10px;
 }

@@ -14,21 +14,6 @@ $(".date").ready(function(){
 		$("#greeting").append("<p>Good Evening</p>");
 	}
 });
-// $(".brand-heading").ready(function(){
-// 	$('#mathew').animate({width: 100%});
-// });
 
 
-
-// $( ".brand-heading" ).ready(function() {
-//   $( "#mathew" ).animate({
-//     width: [ "toggle", "swing" ],
-//     height: [ "toggle", "swing" ],
-//     opacity: "toggle"
-//   }, 5000, "linear", function() {
-//     $( this ).after( "<h1>Mathew Perrow</h1>" );
-//   });
-// });
-
-	
 

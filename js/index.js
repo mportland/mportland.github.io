@@ -14,6 +14,24 @@ $(".date").ready(function(){
 		$("#greeting").append("<p>Good Evening</p>");
 	}
 });
-
-
+$("#resumefile").load("pages/ResumeJune2017HTML.html")
+// var expand = {"width":"850","height":"1100"}
+// $("#resumefile").hover(function(){
+// 	$(this).toggle("slow")
+		
+// })
+  
+//  $(".resumecontainer").mouseover(function(){ 
+// $("#resumefile").toggle(function() {
+//     $(this).stop().animate({
+//         width: "300px",
+//         height: "400px"
+//     }, 500);
+// }, function() {
+//     $(this).stop().animate({
+//         width: "850px",
+//         height: "1100px"
+//     }, 500);
+// });
+// });
 

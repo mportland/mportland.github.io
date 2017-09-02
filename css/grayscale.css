@@ -377,3 +377,11 @@ body {
    align-content:center;
    z-index: 1;
 }
+#modal1{
+  width:30em;
+  height:22em;
+  position: absolute;
+  float:right;
+  
+
+}

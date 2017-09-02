@@ -34,4 +34,19 @@ $("#resumefile").load("pages/ResumeJune2017HTML.html")
 //     }, 500);
 // });
 // });
+$(window).on("load", function () {
+    $('#closemodal').click(function () {
+        $('#modalwindow').modal('hide');
+    });
 
+    $(".loader-backdrop").fadeOut();               // Open Modal on Load or after delay
+    if ($(".modal.fade.Contact").length && ($(".modal.fade.Contact").attr("data-open-onload")) == "true") {
+        setTimeout(function () {
+            $(".modal.fade.Contact").modal();
+        }, $(".modal.fade.Contact").attr("data-open-delay"));
+    }
+});
+// Hide on close
+$('#closemodal').click(function () {
+    $('#modalwindow').modal('hide');
+});
